@@ -29,6 +29,13 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
 
+gem "therubyracer" # para JavaScript
+
+gem "less-rails"   # Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+
+gem "uikit-rails"  # gem para integrar o UIkit ao Rails
+
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
